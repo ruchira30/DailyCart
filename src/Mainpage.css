@@ -1,0 +1,98 @@
+.Home-header {
+    background-color: white;
+    min-height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: calc(10px + 2vmin);
+    color:white;
+    position: relative; 
+    padding:20
+  }
+  .Home-navbar {
+    width:100vw;
+    height:10vh;
+    z-index:1;
+    background-color:white;
+    box-shadow: 0 6px 4px rgba(0, 0, 0, 0.1);
+  
+  }
+  .Home-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 4px;
+    padding: 10px 20px;
+    height:50px;
+}
+
+.Home-profile-container {
+  position: fixed;
+  display: inline-block;
+  left:77%;
+  top:2%;
+}
+.Home-profile {
+  width: 40px;
+  height: 40px;
+
+}
+
+.cart-count-badge {
+  position: absolute;
+  top: 0;
+  right:0%;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  padding: 2px 6px;
+  font-size: 12px;
+  transform: translate(50%, -50%);
+}
+  
+  .Home-logo {
+    width: 7vw;
+    height: 5vh;
+    position: absolute; 
+    top: 3%;
+    left: 5%;
+  }
+  .Home-profile {
+    width: 11vw;
+    height: 7vh;
+    position: absolute; 
+    top: 2.5%;
+    left: 85%;
+  }
+  .categories{
+  position: absolute; 
+  top: 17%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+  color : black;
+  font-family: 'San Serif',cursive;
+  font-size: 3.5rem;
+  z-index: 1;
+  }
+  
+
+  .fv-logo {
+    width:25vw;
+    height:15vh;
+    top : 30%;
+    left:10%;
+    position: absolute;
+  }
+  .fv-text {
+    position: absolute; 
+    top: 45%;
+    left: 22%;
+    transform: translate(-50%, -50%); 
+    color : black;
+    font-family: 'San Serif';
+    font-size: 1rem;
+    z-index: 1;
+  }
+
+
+  
